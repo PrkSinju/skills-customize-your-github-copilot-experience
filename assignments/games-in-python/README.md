@@ -1,19 +1,44 @@
+# 📘 Assignment: Hangman Game Challenge
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Build a command-line Hangman game in Python that practices string manipulation, loops, conditionals, and handling user input. Students will implement game flow, word selection, and win/lose logic.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Implement Hangman Game
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Using the provided `starter-code.py` as a starting point, implement a playable Hangman game that randomly selects a secret word and lets a player guess letters until they win or run out of attempts.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Randomly select a word from a predefined list inside the program or from a file.
+- Prompt the player to guess single letters and update the displayed progress (e.g. `_ a _ _ e`).
+- Track and display the number of incorrect attempts remaining.
+- Prevent repeated guesses from counting against the player and inform the player of previously guessed letters.
+- End the game when the word is fully guessed (win) or when attempts are exhausted (lose), showing an appropriate message and the secret word.
+- Keep the code modular: separate logic for word selection, game state updates, and user interaction into functions.
+
+#### Example session
+
+```
+Welcome to Hangman!
+Word: _ _ _ _ _
+Guesses left: 6
+Enter a letter: a
+Good guess! Word: _ a _ _ _
+```
+
+### 🛠️ Optional Enhancements
+
+#### Description
+Add one or more of the following to extend the assignment for extra credit.
+
+#### Requirements
+
+- Add difficulty levels that change the allowed attempts or word list.
+- Persist a small scoreboard of wins/losses in a local file.
+- Support multi-word phrases and show spaces appropriately.
+
