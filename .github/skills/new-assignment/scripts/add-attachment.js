@@ -49,6 +49,6 @@ assignment.attachments.push({
   file: filename,
   type: type,
 });
-
+//comments
 fs.writeFileSync(configPath, JSON.stringify(config, null, 2) + "\n");
 console.log(`Added "${displayName}" (${filename}) to assignment "${assignmentId}"`);
