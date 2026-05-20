@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "sqlite-data-persistence",
+      "title": "SQLite Data Persistence",
+      "description": "Store and manage data in a local SQLite database using Python.",
+      "path": "assignments/sqlite-data-persistence",
+      "dueDate": "2026-06-25",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
